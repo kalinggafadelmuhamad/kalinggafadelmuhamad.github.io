@@ -1,0 +1,77 @@
+body{
+	padding-top: 105px;
+}
+
+.title {
+    font-size: 2.4rem;
+    letter-spacing: -3px;
+    color: #222;
+    font-weight: 800;
+    font-family: "lato";
+}
+
+.description{
+    font-weight: 400;
+    font-style: normal;
+    color: #aaa;
+    width: 85%;
+    margin: 0 auto 30px;
+}
+
+
+h4 {
+	margin-top:25px;
+}
+
+a {
+	margin-right: 10px;
+	color: #222;
+}
+
+a:hover {
+	transition:  2s;
+	color: teal;
+}
+
+
+.nav-item{
+	font-size: 1rem;
+	margin-top:13px;
+	font-family: lato;
+	font-weight: 100;
+	color: indigo;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+  
+}
+
+.nav-item:hover{
+	color: #aaa;
+	transition: 2s;
+	text-decoration: none;
+  
+}
+
+.anim {
+	/*background: red;*/
+	animation: s 1s;
+}
+
+@keyframes s {
+	0%{
+		transform: translateY(-20px);
+		opacity: 0;
+	}
+	100%{
+		transform: translateY(px);
+	}
+}
+
+
+
+
+
+
+
+}
