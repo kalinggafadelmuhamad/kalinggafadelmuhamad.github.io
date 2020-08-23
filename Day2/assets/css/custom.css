@@ -1,0 +1,96 @@
+*{
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  #fafafa;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background: white !important;
+    box-shadow: 0px 25px 70px rgba(0, 0, 0, 0.07);
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.text-pink {
+    color: #ff3372 !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.nav-link {
+    font-weight: bold;
+}
+
+#grafik h3 {
+    font-weight: 300;
+    letter-spacing: -1px;
+}
+
+canvas {
+    box-shadow: 0px 25px 75px rgba(0, 0, 0, 0.07);
+}
+
+#kasus h3 {
+    font-weight: 500;
+}
+
+.bg-danger {
+    background-color: #ff3372 !important;
+}
+
+.bg-sad {
+    background-color: rgb(255, 225,0 ) !important;
+}
+
+.bg-happy {
+    background-color: rgb(0, 225,0 ) !important;
+}
+
+.bg-blue {
+    background-color: rgb(30, 30, 255) !important;
+    box-shadow: 0px 25px 70px rgba(0, 0, 0, 0.07) !important;
+}
+
+.bg-teal {
+    background-color: teal;
+    box-shadow: 0px 25px 70px rgba(0, 0, 0, 0.07);
+}
+
+#footer .container-fluid {
+    background-color: #ff56aa;
+    margin-top: -5px;
+}
+
+#footer h4 {
+    font-weight: 600;
+}
+
+#footer ul {
+    list-style: none;
+}
+
+#footer a {
+    color: white;
+}
+
+#footer .card {
+    border: 0px !important;
+    border-radius: 0px;
+    color: black;
+}
+
+.container-fluid {
+    background-color: #ff56aa;
+    
+}
+
