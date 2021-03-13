@@ -1,0 +1,217 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins' !important;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background: white !important;
+    box-shadow: 0 25px 70px rgba(0, 0, 0, 0.07);
+}
+.navbar-brand {
+    color: teal  !important;
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+.navbar-brand:hover{
+    color: #027272f5;
+}
+
+.nav-link {
+    color: black;
+    font-family: 'Poppins';
+    font-weight: 300;
+}
+
+.nav-link:hover {
+    color: teal;
+    font-family: 'Poppins';
+    font-weight: 300;
+    transition: 2s;
+}
+
+.tag {
+    color: teal;
+}
+
+#heroImage{
+    padding-top: 3rem !important;
+}
+
+#heroImage h1 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    letter-spacing: px;
+    color: #293b5f !important;
+}
+
+#heroImage p {
+    font-family: 'Poppins';
+    font-weight: 300;
+    letter-spacing: -1;
+}
+
+.btn-started {
+    background-color: teal !important;
+    border:none;
+}
+
+#heroImage img {
+    box-shadow: 0 25px 70px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;;
+}
+
+.animated3 {
+    animation: anim3 0.5s;
+}
+
+.animated2 {
+    animation: anim2 0.8s;
+}
+
+.animated1 {
+    animation: anim1 1s;
+}
+
+.animated4 {
+    animation: anim4 1s;
+}
+
+@keyframes anim3 {
+    0%{
+       transform: translateY(20px);
+        opacity: 0;
+    }
+    100%{
+        transform: transtaleY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes anim2 {
+    0%{
+       transform: translateY(-20px);
+        opacity: 0;
+    }
+    100%{
+        transform: transtaleY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes anim1 {
+    0%{
+       transform: translateY(-20px);
+        opacity: 0;
+    }
+    100%{
+        transform: transtaleY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes anim4 {
+    0%{
+       transform: translateX(40px);
+        opacity: 0;
+        filter: grayscale(1);
+    }
+    100%{
+        transform: transtaleY(0px);
+        opacity: 1;
+    }
+}
+
+
+#layanan .container-fluid {
+    background-color: #fafafa !important;
+
+}
+
+#layanan h3 {
+    font-weight: 600;
+    color: #293b5f;
+}
+
+#layanan .card-img-top{
+    height: 200px;
+    border-radius: 5%;
+}
+
+.card {
+    border-radius: 5% !important;
+    box-shadow: 0 25px 70px rgba(0, 0, 0, 0.07);
+}
+
+
+footer h3 {
+        font-weight: 600;
+        letter-spacing: 1;
+        color: #293b5f !important;
+}
+
+footer p {
+    font-weight: 300;
+    letter-spacing: 1;
+    color: #293b5f !important;
+}
+
+footer .logo {
+    box-shadow: 0 25px 70px rgba(0, 0, 0, 0.07);
+    width: 50%;
+}
+
+footer ul {
+    list-style: none;
+}
+
+@media (max-width: 720px){
+
+     #heroImage{
+        background:linear-gradient( rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2) ),url('../../img/heroImage.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 85%;
+
+    }
+
+    #heroImage{
+    padding-top: 0rem !important;
+    }   
+
+    .navbar-toggler-icon {
+        color: teal !important;
+    }
+
+    .navbar-light .navbar-toggler {
+        border:none !important;
+    }
+
+    .navbar-light .navbar-toggler-icon{
+        color: black !important;
+    }
+
+    .nav-link {
+        margin: 10px 10px;
+    }
+
+    #layanan .card{
+        width: 100% !important;
+    }
+
+    #layanan .card-img-top{
+    height: 200px;
+    border-radius: 5%;
+}
+
+    footer .logo {
+        box-shadow: 0 25px 70px rgba(0, 0, 0, 0.07);
+        width: 50%;
+    }
+
+    
+}
